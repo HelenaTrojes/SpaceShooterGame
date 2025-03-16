@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Space Shooter Game</title>
+</head>
+<body>
+    <p id="score">  
+        <span>Score:</span>
+        <span id="scoreEl">0</span>
+    </p>
+    
+    <button id="startButton">Start Button</button>
+    <canvas id="gameCanvas"></canvas>
+   
+    <img src="./images/enemy.png" id="enemy" class="hidden">
+    <img src="./images/spaceshipSprite.png" id="spaceship" class="hidden">
+    <img src="./images/wallpaper.webp" id="wallpaper" class="hidden">
+    <img src="./images/gameover.webp" id="over" class="hidden">
+
+   <script type="module" src="./js/main.js"></script>
+</body>
+</html>
